@@ -26,7 +26,7 @@ jobs:
 
       - name: Docker meta
         id: meta
-        uses: docker/metdata-actions@v5
+        uses: docker/metadata-actions@v5
         with:
           images: alvistar/zfs-prom
 
